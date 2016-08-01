@@ -90,18 +90,18 @@ class RobotGUI(QtGui.QWidget):
         for i in range(3):
             self.pos[i].setText(pos[i])
 
-    def setPosX(self, pos):
-        self.pos[0].setText(pos)
+    def setAclX(self, acl):
+        self.acl[0].setText(acl)
 
-    def setPosY(self, pos):
-        self.pos[1].setText(pos)
+    def setAclY(self, acl):
+        self.acl[1].setText(acl)
 
-    def setPosZ(self, pos):
-        self.pos[2].setText(pos)
+    def setAclZ(self, acl):
+        self.acl[2].setText(acl)
 
-    def setPos(self, pos):
+    def setAcl(self, acl):
         for i in range(3):
-            self.pos[i].setText(pos[i])
+            self.acl[i].setText(acl[i])
 
 def main():
     app = QtGui.QApplication(sys.argv)
