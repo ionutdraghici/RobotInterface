@@ -9,9 +9,9 @@ def callback(data):
 
 
 def listener():
-    rospy.init_node('NavdataListener', anonymous=True)
+    rospy.init_node('navdataListener', anonymous=True)
 
-    rospy.Subscriber('/openrov/status', String, callback)
+    rospy.Subscriber('/openrov/navdata', String, callback)
 
     # spin() simply keeps python from exiting until this node is stopped
     rospy.spin()
