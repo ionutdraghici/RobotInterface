@@ -24,7 +24,6 @@ def callback(data):
     # print(data.status)
 
 
-
 def listener():
     rospy.init_node('navdataListener', anonymous=True)
 
