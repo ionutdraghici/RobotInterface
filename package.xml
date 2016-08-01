@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-    <name>RobotInterface</name>
+    <name>robot_interface</name>
     <version>0.0.2</version>
     <description>The RobotInterface package</description>
 
