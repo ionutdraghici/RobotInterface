@@ -48,6 +48,7 @@ find_package(catkin REQUIRED COMPONENTS
 #   FILES
 #   Message1.msg
 #   Message2.msg
+#
 # )
 
 ## Generate services in the 'srv' folder
