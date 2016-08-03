@@ -1,4 +1,11 @@
 <application>
+  <component name="PyTestFrameworkService">
+    <option name="SDK_TO_PYTEST">
+      <map>
+        <entry key="/usr/bin/python3.4" value="false" />
+      </map>
+    </option>
+  </component>
   <component name="SvnApplicationSettings">
     <option name="myTypedURLs">
       <list>
